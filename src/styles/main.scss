@@ -1,0 +1,27 @@
+:root {
+  --max-content-width: 1200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fffdfa; /* magnolia petal background */
+}
+
+.container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section {
+  padding: 64px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+

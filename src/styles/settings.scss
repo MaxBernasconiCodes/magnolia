@@ -1,0 +1,7 @@
+// Vuetify SASS settings (optional, can be extended later)
+$body-font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+@use 'vuetify/settings' with (
+  $body-font-family: $body-font-family,
+);
+
