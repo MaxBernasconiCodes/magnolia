@@ -59,7 +59,15 @@ function goAndClose(href) {
     </v-navigation-drawer>
 
     <!-- Main content -->
-
+    <v-main>
+      <SectionHero id="hero" />
+      <div class="parallax-divider" style="background-image:url('https://images.unsplash.com/photo-1526045612212-70caf35c14df?q=80&w=1600&auto=format&fit=crop');"></div>
+      <SectionServices id="services" />
+      <div class="parallax-divider" style="background-image:url('https://images.unsplash.com/photo-1526045612212-70caf35c14df?q=80&w=1600&auto=format&fit=crop');"></div>
+      <SectionHistory id="history" />
+      <div class="parallax-divider" style="background-image:url('https://images.unsplash.com/photo-1526045612212-70caf35c14df?q=80&w=1600&auto=format&fit=crop');"></div>
+      <SectionContact id="contact" />
+    </v-main>
   </v-layout>
 </template>
 
